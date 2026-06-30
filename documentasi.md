@@ -13,3 +13,8 @@ usb male to male
 ## Step 1
 masukan sd card ke cardreader
 
+setlah itu masukan ke leptop pastikan sdcard terbaca
+kalian dapat mengunakan carreder seperti di gamabar atau cardreder berupa usb
+
+
+
