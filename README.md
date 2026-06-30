@@ -1,1 +1,1 @@
-# instalasi-arch-linux-stb-
+# instalasi-arbian-linux-stb
