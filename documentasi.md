@@ -169,7 +169,72 @@ dtb_name=/dbt/meson-gxl-s905x-p212.dtb
 bootargs=root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
 ```
 
+- selanjutnya kita kembali ke android pada set top box, kita bisa enggunakan mouse
 
+- lalu buka file manager
+
+- klik tombol sebelah icon home untuk bisa memilih file
+
+- kemudian cari file bootloader.bin
+
+- setelah itu klik, 2 tombol dari icon home untuk bisa mengcopy file yang telah dipilih
+
+- lalu pencet tombol icon home
+
+- buka folder localdisk
+
+- kemudian buka folder Download
+
+- paste file dengan klik, 2 tombol dari icon home
+
+- setelah itu buka aplikasi emulator terminal
+
+- kemudian masuk ke dalam root dengan menggunakan command 
+
+```
+su
+```
+
+- setelah itu masuk ke folder download pada localdisk
+
+```
+cd sdcard/download
+```
+
+- lalu cek apakah ada file bootloadet.bin
+
+```
+ls
+```
+
+- kemudian masukkan command berikut
+
+```
+dd if=bootloader.bin of=/dev/block/bootloader
+```
+
+- jika berhasil maka akan keluar records in dan records out
+
+- setelah itu restart set top box 
+
+```
+reboot
+```
+- setelah itu masukan pw root 1234
+
+- setelah itu akan diminta untuk mengubah password root
+
+- untuk mengubah password root akan diminta password yang awal
+
+- kemudian masukkan password yang diinginkan, setelah itu masukkan kembali
+
+- setelah kita akan suruh membuat membuat user
+
+- setelah itu masukkan password untuk user, setelah itu masukkan kembali passwordnya
+
+- setelah itu kita akan diminta informasi masukkan saja sesuai keinginan, atau bisa dikosongkan dengan cara langsung dienter saja
+
+**selamat anda telah berhasil menginstall linux pada set top box**
 
 
 
