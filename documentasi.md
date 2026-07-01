@@ -2,7 +2,6 @@ dokumentasi ini di buat atas bantuan dan riset yang telah dilakukan oleh sultan 
 terimaksih banyak kepada abang abnag diatas 
 
 
-
 # Persiapan
 - stb b860h
 - memorycard minimal 6 gb
