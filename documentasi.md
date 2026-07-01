@@ -117,6 +117,13 @@ kalian dapat mengunakan carreder seperti di gamabar atau cardreder berupa usb
 > menggunakan visual studio code boleh pake aplikasi teks editor lain
 - lalu cari line # FDT /dbt/meson-gxl-s905x-khadas-vim.dtb
 
+
+
+
+    ![alt text](gasdg/2.png)
+
+
+
 ```extlinux.conf
 LABEL Armbian
   LINUX /zImage
@@ -136,10 +143,31 @@ LABEL Armbian
   APPEND root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0 
 ```
 
+
+
+
+
+
 - setelah itu kita save
 
 
 - setelah itu kita pindah ke file uENV.ini kita edit lagi di vscode > bisa pake aplikasi lain
+
+
+
+    ![alt text](gasdg/1.png)
+  
+```uENV.ini
+dtb_name=/dtb/meson-gxl-s905x-khadas-vim.dtb
+bootargs=root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
+```
+
+- lalu ganti menjadi dtb_name=/dtb/meson-gxl-s905x-p212.dtb
+
+```uENV.ini
+dtb_name=/dbt/meson-gxl-s905x-p212.dtb
+bootargs=root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
+```
 
 
 
