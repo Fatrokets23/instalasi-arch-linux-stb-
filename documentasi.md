@@ -1,8 +1,13 @@
+dokumentasi ini di buat atas bantuan dan riset yang telah dilakukan oleh sultan fajar dan haydar
+terimaksih banyak kepada abang abnag diatas 
+
+
+
 # Persiapan
-stb b860h
-memorycard minimal 6 gb
-card redear
-usb male to male
+- stb b860h
+- memorycard minimal 6 gb
+- card redear
+- usb male to male
 
 ## shofware yang diperlukan 
 - usb burning tools https://androidmtk.com/download-amlogic-usb-burning-tool
