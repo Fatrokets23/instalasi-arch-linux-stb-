@@ -9,6 +9,7 @@ usb male to male
 - boot card maker https://wiki.coreelec.org/coreelec:aml_burncard
 - aerofalsher
 - rufus
+- vscode
 atau silakan donwload link ini
 > catatan harap download semua file diatas
 
@@ -99,3 +100,50 @@ kalian dapat mengunakan carreder seperti di gamabar atau cardreder berupa usb
 # step 4 di step ini kita akan mengistall linux arambian di stb
 
 - langkah pertama yakni keluarkan sdcard dari stb
+- masukan kembali ke cardreder
+- buka aplikasi sufus
+- lalu rufus seeperti biasa tapi menggunakana file Armbian_5.91_Aml-s905_Debian_buster_default5.1.0
+
+
+    ![alt text](gasdg/rufus.png)
+
+- jika sudah selesai klik close
+- buka microsd di file manager
+
+- kemudian buka folder extlinux
+
+- buka file extlinux.conf menggunakan text editor
+
+> menggunakan visual studio code boleh pake aplikasi teks editor lain
+- lalu cari line # FDT /dbt/meson-gxl-s905x-khadas-vim.dtb
+
+```extlinux.conf
+LABEL Armbian
+  LINUX /zImage
+  INITRD /uInitrd
+  FDTDIR /dtb
+#  FDT /dtb/meson-gxl-s905x-khadas-vim.dtb
+  APPEND root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0 
+```
+- hapus # dan ganti menjadi FDT /dbt/meson-gxl-s905x-p212.dtb
+
+```extlinux.conf
+LABEL Armbian
+  LINUX /zImage
+  INITRD /uInitrd
+  FDTDIR /dtb
+  FDT /dbt/meson-gxl-s905x-p212.dtb
+  APPEND root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0 
+```
+
+- setelah itu kita save
+
+
+- setelah itu kita pindah ke file uENV.ini kita edit lagi di vscode > bisa pake aplikasi lain
+
+
+
+
+
+
+  
