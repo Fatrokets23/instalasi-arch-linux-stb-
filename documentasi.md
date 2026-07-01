@@ -10,7 +10,9 @@ usb male to male
 - aerofalsher
 - rufus
 - vscode
-atau silakan donwload link ini https://drive.google.com/drive/folders/1Rx2OFEo9fwOvBBPcfdYTrjCP4liB_TrQ?usp=drive_link
+
+
+- atau silakan donwload link ini https://drive.google.com/drive/folders/1Rx2OFEo9fwOvBBPcfdYTrjCP4liB_TrQ?usp=drive_link
 > catatan harap download semua file diatas
 
 # Step 1
