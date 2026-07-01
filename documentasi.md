@@ -12,7 +12,7 @@ usb male to male
 - vscode
 
 
-- atau silakan donwload link ini https://drive.google.com/drive/folders/1Rx2OFEo9fwOvBBPcfdYTrjCP4liB_TrQ?usp=drive_link
+- atau silakan donwload [Download tar](https://drive.google.com/drive/folders/1uyD5fPBxR7_VSwl4v7qxVa4UN1C50l3A?usp=sharing)
 > catatan harap download semua file diatas
 
 # Step 1
